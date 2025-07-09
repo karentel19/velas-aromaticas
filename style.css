@@ -1,0 +1,65 @@
+body {
+  background-color: #2e3b2f; /* Verde musgo escuro */
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, serif; /* Substituta da Tex Gyre Bonum */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+  max-width: 600px;
+  width: 90%;
+}
+
+.titulo {
+  color: #9e621d;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.imagem-velas {
+  width: 100%;
+  max-width: 400px; /* limita a largura da imagem */
+  height: auto;     /* mantém a proporção da imagem */
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* opcional: sombreamento bonito */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: rgb(230, 228, 94);
+  font-size: 10px;
+  margin-bottom: 20px;
+
+}
+
+.linha-separadora {
+  border: none;
+  height: 2px;
+  background-color: #ffffff33;
+  margin: 20px 0;
+}
+
+.botao-cadastro {
+  background-color: #607d8b; /* Cinza azulado */
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.botao-cadastro:hover {
+  background-color: #0f1417;
+}
+
